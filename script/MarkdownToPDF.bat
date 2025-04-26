@@ -1,0 +1,1 @@
+pandoc -V geometry:margin=0.5in --resource-path %3 -o %2 %1 --pdf-engine=xelatex >> "%~4" 2>&1
